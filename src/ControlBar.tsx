@@ -43,7 +43,7 @@ class MidiPort extends React.Component<PortProps, PortState> {
 
   
   onSelectedInput(): void {
-    console.log();
+    console.log('hi!');
   }
 
   setHandlerForSelectedInput(midiAccess: WebMidi.MIDIAccess, midiId: string) {
